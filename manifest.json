@@ -1,0 +1,17 @@
+{
+    "name": "Watch Together",
+    "description": "Watch Together is an extension that allows you to watch videos with your firends by shareing a code",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "48": "/icons/icon48.png",
+        "128": "/icons/icon128.png"
+    }
+}
